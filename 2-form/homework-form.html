@@ -8,8 +8,7 @@
 <body>
         <div>
         <h1>Регистрация</h1>
-        <span>Уже есть аккаунт? </span>
-        <a href="#">Войти</a>
+        <p>Уже есть аккаунт? <a href="#">Войти</a></p>
         </div>
         <br>
         <form action="#">
@@ -19,11 +18,11 @@
                 <input name="lastName" type="text" placeholder="Фамилия">
             </div>
             <input name="email" type="email" placeholder="E-mail" required>
-            <br>
             <button>Зарегистрироваться</button>
-            <br>
-            <input type="checkbox" name="conditions" id="conditions" required>
-            <label for="conditions">Я прочитал и принимаю <a href='#'>Условия использования</a></label>
+            <div>
+                <input type="checkbox" name="conditions" id="conditions" required>
+                <label for="conditions">Я прочитал и принимаю <a href='#'>Условия использования</a></label>
+            </div>
         </form>
 </body>
 </html>
