@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style_form.css">
+    <title>Form register</title>
 </head>
 <body>
+    <div class="form_register">
         <div>
         <h1>Регистрация</h1>
         <p>Уже есть аккаунт? <a href="#">Войти</a></p>
         </div>
-        <br>
         <form action="#">
-            <input name="company" type="text" placeholder="Моя компания">
+            <input class="company" name="company" type="text" placeholder="Моя компания">
             <div>
-                <input name="firstName" type="text" placeholder="Имя" required>
-                <input name="lastName" type="text" placeholder="Фамилия">
+                <input class="style_input" name="firstName" type="text" placeholder="Имя" required>
+                <input class="style_input" name="lastName" type="text" placeholder="Фамилия">
             </div>
-            <input name="email" type="email" placeholder="E-mail" required>
-            <button>Зарегистрироваться</button>
+            <input class="style_input" name="email" type="email" placeholder="E-mail" required>
+            <button>Зарегистрироваться &#8594;</button>
             <div>
                 <input type="checkbox" name="conditions" id="conditions" required>
                 <label for="conditions">Я прочитал и принимаю <a href='#'>Условия использования</a></label>
             </div>
         </form>
+    </div>
 </body>
 </html>
