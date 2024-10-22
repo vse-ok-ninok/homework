@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+
+* {
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.image_logo {
+    border-radius: 5px;
+}
+
+.navigation_list {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+
+.logo_name {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+}
+
+.topic_date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: #ACAFB6;
+}
+
+.heading_1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.article_1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.article_2, .article_3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.p_footer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ACAFB6;
+}
+
+#name_author {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#author_post {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ACAFB6;
+}
+
+#site_search {
+    color: #FFFFFF;
+    background-color: rgba(31, 41, 55, 0.6);
+}
+
+
+
+
