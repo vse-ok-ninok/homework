@@ -20,6 +20,7 @@ article {
 a {
     text-decoration: none;
 }
+
 .image_logo {
     border-radius: 5px;
 }
@@ -73,20 +74,28 @@ a {
     margin: 28px 0 0 0;
 }
 
-.article_1 {
+.article_content:first-child {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     margin: 69px 0 0 0;
 }
 
-.article_2, .article_3 {
+
+.article_content {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     margin: 33px 0 0 0;
 }
 
+.article_content>a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#FFFFFF;
+    text-decoration: underline 1px #ffffff;
+}
 .p_footer {
     font-size: 16px;
     font-weight: 400;
