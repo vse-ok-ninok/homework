@@ -1,0 +1,63 @@
+body {
+    background-color: #F39494;
+}
+
+.form_register {
+    background-color: #FFFEFE;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 49px;
+    color: #333333;
+}
+
+p, a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    color: #666666;
+}
+
+a {
+    color: #089FE0;
+}
+
+.company {
+    background-color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    color: #333333;
+}
+
+.style_input {
+    background-color: #F5F5F5;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21.79px;
+    color: #999999;
+}
+
+button {
+    background-color: #089FE0;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    color: #666666;
+}
+
+label > a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+}
